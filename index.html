@@ -7,39 +7,58 @@
 
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="titulo">Git & Github</h1>
-    <h3 class="subtitulo">Aprendendo comandos no Git</h3> 
     
-        <ul class="items">
-            <ul class="item">
-                <p>Comandos básicos:</p> 
-                <li><b>git init </b><i> Inicia um repositório git na pasta atual.</i></li>
-                <li><b>git clone URL</b> <i>Clona um repositório remoto para sua máquina.</i></li>
-                <li><b>git status</b> <i>Mostra o status dos arquivos no repositório.</i></li>
-            </ul>
+    <header>
+        <h1 class="titulo">Git & Github</h1>
+        <h3 class="subtitulo">Aprendendo comandos no Git</h3>
+    </header>
+
+    <section class="container">
+
+            <div class="card">
+                <h2 class="descricao">Comandos Basicos:</h2>
+                
+                <p><span>git init </span> Inicia um repositório git na pasta atual.</p>
+                <p><span>git clone URL</span> Clona um repositório remoto para sua máquina.</p>
+                <p><span>git status</span> Mostra o status dos arquivos no repositório.</p>
+            </div>
             
-            <ul class="item">
-                <p>Branches e Navegação:</p>
-                <li><b>git branch </b><i>Lista todas as branches no repositório.</i></li>
-                <li><b>git branch nome</b> <i>Cria uma nova branch.</i></li></li>
-                <li><b>git checkout branch</b><i> Muda para uma nova branch.</i></li>
-                <li><b>git checkout -b</b><i> "nova-branch" Cria e já troca para a nova branch.</i></li>
-            </ul>
-            <ul class="item">
-                <p>Sincronização com Repositório Remoto:</p>
-                <li><b>git pull origin <span>branch </span></b><i>Atualiza a branch local com as mudanças do repositório remoto.</i></li>
-                <li><b>git pull </b><i>Baixa mudanças do repositório remoto e as mescla na branch atual.</i></li>
-                <li><b>git push </b><i>Envia suas alterações para o repositório remoto.</i></li>
-            </ul>
-            <ul class="item">
-                <p>Commits e Históricos:</p>
-                <li><b>git commit -m</b><i> Registra mudanças com uma descrição.</i></li>
-                <li><b>git commit </b><i>abre o editor para escrever uma mensagem mais detalhada.</i></li>
-                <li><b>git log </b><i>Exibe o histórico de commits da branch atual.</i></li>
-                <li><b>git Head </b><i>Indica o estado atual do repositório e a posição do último commit.</i></li>
-            </ul>
-        </ul>
+            <div class="card">
+                <h2 class="descricao">Branches e Navegação:</h2>
+
+                <p><span>git branch </span>Lista todas as branches no repositório.</p>
+                <p><span>git branch nome</span> Cria uma nova branch.</p></p>
+                <p><span>git checkout branch</span> Muda para uma nova branch.</p>
+                <p><span>git checkout -span</span> "nova-branch" Cria e já troca para a nova branch.</p>
+            </div>
+
+            <div class="card">
+                <h2 class="descricao">Sincronização com Repositório Remoto:</h2>
+                
+                <p><span>git pull origin <span>branch </span></span>Atualiza a branch local com as mudanças do repositório remoto.</p>
+                <p><span>git pull </span>Baixa mudanças do repositório remoto e as mescla na branch atual.</p>
+                <p><span>git push </span>Envia suas alterações para o repositório remoto.</p>
+            </div>
+
+            <div class="card">
+                <h2 class="descricao">Commits e Históricos:</h2>
+                
+                <p><span>git commit -m</span> Registra mudanças com uma descrição.</p>
+                <p><span>git commit </span>abre o editor para escrever uma mensagem mais detalhada.</p>
+                <p><span>git log </span>Exibe o histórico de commits da branch atual.</p>
+                <p><span>git Head </span>Indica o estado atual do repositório e a posição do último commit.</p>
+            </div>
+        </div>
+    </section>
+
+        <footer>
+            <p>Desenvolvido por <a href="https://github.com/wagnerpx" target="_blank" rel="noopener noreferrer">WagnerPx</a></p>
+        </footer>
 </body>
 </html>
